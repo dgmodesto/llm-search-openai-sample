@@ -8,7 +8,7 @@ This system was developed to transform free-text input into automated SQL querie
 
 **Example Input**:  
 Free-text input like:  
-"Show me the RBCB005 assets of the C# technology that are obsolete"
+"Show me the XPTOYZB005 assets of the C# technology that are obsolete"
 
 **Example Output**:  
 An SQL script generated based on the text analysis.
@@ -60,7 +60,7 @@ curl -X 'POST' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
-  "texto": "Mostre me os ativos RBCB005 da tecnologia C# que estejam obsoletos"
+  "texto": "Mostre me os ativos XPTOYZB005 da tecnologia C# que estejam obsoletos"
 }'
 ```
 
@@ -102,7 +102,7 @@ The server processes the text, identifying parameters like:
 Based on this information, the system generates an SQL script, like in the example:
 
 ```sql
-SELECT * FROM ativos WHERE codigo = 'RBCB005' AND tecnologia = 'C#' AND status = 'obsoleto';
+SELECT * FROM ativos WHERE codigo = 'XPTOYZB005' AND tecnologia = 'C#' AND status = 'obsoleto';
 ```
 
 ## Project Structure
