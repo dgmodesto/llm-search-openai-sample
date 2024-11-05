@@ -1,0 +1,8 @@
+langchain
+openai
+langchain-openai
+pyodbc
+Flask 
+flask-restx
+pandas
+langchain_community
