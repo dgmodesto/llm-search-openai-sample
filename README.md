@@ -69,7 +69,19 @@ curl -X 'POST' \
 ```json
 
 {
-  "sql": "SELECT * FROM ativos WHERE codigo = 'RBCB005' AND tecnologia = 'C#' AND status = 'obsoleto';"
+  "result": [
+    {
+      "arquivo": "nome_arquivo",
+      "ativo": "XPTOYZ005",
+      "data_ingestao": "03/07/2024",
+      "sigla": "XPTO",
+      "situacao_ativo": "Obsoleta",
+      "subcategoria": "Linguagem",
+      "superintendente": "DOUGLAS MODESTO",
+      "tecnologia": "C#",
+      "versao_tecnologia": "1.1.0"
+    }
+  ]
 }
 ```
 
